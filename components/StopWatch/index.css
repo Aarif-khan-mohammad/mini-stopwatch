@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+.stopwatch{
+  background-image: url("https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png");
+  background-size: cover;
+  height:100vh;
+  width:100%;
+}
+
+.heading{
+  font-family:"Roboto";
+  padding-left:8rem;
+}
+
+.app-container{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height:47vh;
+  width:40%;
+  margin-left:3rem;
+  border-radius:1rem;
+  flex:1 0 auto;
+}
+.top{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:1rem;
+  flex:1 0 auto;
+}
+
+.time{
+  text-align:center;
+  font-family:"Roboto";
+  font-size:2.5rem;
+  flex:1 0 auto;
+}
+
+.buttons{
+  display:flex;
+  justify-content:center;
+  gap:0.5rem;
+  flex:1 0 auto;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+}
+
+.start{
+  background-color:lightgreen;
+  height:2rem;
+
+  border:none;
+  border-radius:0.5rem;
+  color:white;
+  font-weight:bold;
+  flex:1 0 auto;
+}
+
+.stop{
+  background-color:red;
+  height:2rem;
+
+  border:none;
+  border-radius:0.5rem;
+  color:white;
+  font-weight:bold;
+  flex:1 0 auto;
+}
+
+.reset{
+  background-color:lightblue;
+  height:2rem;
+  
+  border:none;
+  border-radius:0.5rem;
+  color:white;
+  font-weight:bold;
+  flex:1 0 auto;
+}
